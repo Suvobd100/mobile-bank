@@ -33,7 +33,7 @@
                       </div>
                       <!-- <div class="stat-title">Total Likes</div> -->
                       <div class="stat-value text-primary">
-                        <span>$</span><Span id="blance-id">45000</Span>
+                        <span>$</span><Span id="balance-id">45000</Span>
                       </div>
                       <div class="stat-desc">Available Balance</div>
                     </div>            
@@ -95,7 +95,7 @@
               <!-- Divider start ----------------------------------------------->
              
                 
-                <div class="divider">OR</div>
+                <div class="divider"></div>
                
              
               <!----------------------------------------------- Divider end -->
@@ -109,17 +109,17 @@
                     <label class="label">
                       <span class="label-text text-black">Amount</span>
                     </label>
-                    <input type="number" placeholder="Amount" class="input input-bordered" required />
+                    <input id="id-amount" type="number" placeholder="Amount" class="input input-bordered" required />
                   </div>
                   <div class="form-control">
                     <label class="label">
                       <span class="label-text  text-black">Pin</span>
                     </label>
-                    <input type="password" placeholder="password" class="input input-bordered" required />
+                    <input id="id-password" type="password" placeholder="password" class="input input-bordered" required />
                     
                   </div>
                   <div class="form-control mt-4 mb-8">
-                    <button class="btn btn-primary">Login</button>
+                    <button id="btn-addMoney" class="btn btn-primary">Add Money</button>
                   </div>
                 </form>
               </div>
@@ -131,5 +131,6 @@
           </div>
           
     </main>
+    <script src="./js/addMoney.js"></script>
 </body>
 </html>
